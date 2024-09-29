@@ -17,7 +17,7 @@
 ## 标签
 11、git tag v1 代表新建 v1 ta
 12、git checkout v1检查
-## git hub
+## 生成密钥进行对接
 1、输入 ssh-keygen -t rsa （指定 rsa 算法生成密钥），接着连续三个回车键（不需要输入密码），然后就会生成两个文件 id_rsa （密钥）和 id_rsa.pub （公钥）
 2、把 id_rsa.pub 的内容添加到 GitHub 上，这样你本地的 id_rsa 密钥跟 GitHub 上的 id_rsa.pub 公钥进行配对，授权成功才可以提交代码
 3、在git bash 中输入ssh-T git@github.com
